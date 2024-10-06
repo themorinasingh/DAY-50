@@ -1,0 +1,25 @@
+
+#todo login to account
+time.sleep(2)
+login_via_phone = driver.find_element(By.XPATH, value='//*[@id="q-699262256"]/div/div/div/div[1]/div/div/div[2]/div[2]/span/div[3]/button/div[2]/div[2]')
+login_via_phone.click()
+
+#todo enter phone number
+time.sleep(2)
+phone_number_enter = driver.find_element(By.XPATH, value='//*[@id="phone_number"]')
+phone_number_enter.send_keys("5062694986")
+
+#todo press next
+time.sleep(2)
+next_button = driver.find_element(By.XPATH, value='//*[@id="q-699262256"]/div/div/div[1]/div/div[3]/button')
+next_button.click()
+
+#todo sign in via facebook
+time.sleep(2)
+sign_in = driver.fin
+
+
+
+
+
+
